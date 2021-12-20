@@ -1,0 +1,9 @@
+{
+	"name": "adfaulagovernancagabriel",
+	"location": "southcentralus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5dc368df-3fd7-4657-a004-354dbe78f448",
+		"tenantId": "cf36141c-ddd7-45a7-b073-111f66d0b30c"
+	}
+}
