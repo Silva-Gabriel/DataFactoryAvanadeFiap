@@ -38,9 +38,7 @@
 								"datasetParameters": {
 									"source1": {},
 									"source2": {},
-									"sinkSakila": {
-										"file": "aluguelfull.parquet"
-									}
+									"sinkSakila": {}
 								}
 							},
 							"staging": {},
