@@ -17,7 +17,12 @@
 				"typeProperties": {
 					"dataflow": {
 						"referenceName": "dataflowJoinSakila",
-						"type": "DataFlowReference"
+						"type": "DataFlowReference",
+						"datasetParameters": {
+							"sinkSakila": {
+								"file": "aluguelfull.parquet"
+							}
+						}
 					},
 					"compute": {
 						"coreCount": 8,
