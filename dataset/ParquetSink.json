@@ -5,12 +5,17 @@
 			"referenceName": "AzureDataLakeStorage1",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"file": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "aluguelfull.parquet",
+				"folderPath": "aluguelfull.parquet",
 				"fileSystem": "organization"
 			},
 			"compressionCodec": "snappy"
